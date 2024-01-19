@@ -331,6 +331,12 @@ body {
   border-radius: 20px;
   border: none !important;
   position: relative;
+  transition: all 0.5s;
+}
+
+#recomend .cards .card:hover {
+  transform: scale(1.02);
+  box-shadow: 4px 4px 4px 4px rgb(201, 201, 201);
 }
 
 #recomend .cards .card .card-header {
@@ -427,6 +433,7 @@ body {
   margin-top: 50px;
   width: 340px;
   background-color: #ff7595;
+  margin-left: 10px;
 }
 
 #recomend .cards .card .net {
@@ -463,6 +470,7 @@ body {
   border-radius: 10px;
   height: 40px;
   background-color: rgb(214, 214, 214);
+  margin-left: 10px;
 }
 
 #recomend .cards .card .exchange i {
@@ -485,6 +493,7 @@ body {
   border-radius: 10px;
   height: 40px;
   background-color: rgb(214, 214, 214);
+  margin-left: 10px;
 }
 
 #recomend .cards .card .fire i {
@@ -509,4 +518,89 @@ body {
   border: 1px solid #d43157;
   color: #d43157;
   background-color: white;
+  font-weight: bold;
+}
+
+#recomend .buy-balance-simcard {
+  display: flex;
+  justify-content: space-around;
+}
+
+#recomend .buy-balance-simcard .balance {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+#recomend .buy-balance-simcard .balance h2 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#recomend .buy-balance-simcard .sim-card {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+}
+
+#recomend .buy-balance-simcard .balance h6 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#recomend .buy-balance-simcard .balance input {
+  width: 500px;
+  height: 60px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+#recomend .buy-balance-simcard .balance button {
+  margin-top: 30px;
+  width: 130px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  background-color: #d43157;
+  color: white;
+  margin-left: 20px;
+}
+
+.nar-company .cover-img {
+  width: 1200px;
+  height: 400px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 60px;
+  position: absolute;
+}
+
+.nar-company .cover-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.nar-company .sim-card {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+}
+
+.nar-company .cover-img .sim-card img {
+  width: 40px;
+  height: 40px;
+  background-color: green;
 }
